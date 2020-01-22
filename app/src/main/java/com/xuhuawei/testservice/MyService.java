@@ -13,11 +13,11 @@ public class MyService extends Service {
     public IBinder onBind(Intent intent) {
         Log.i("TestService", "onBind...");
         bindService = this;
-        if (bindService == startService) {
-            Log.i("TestService", "bindService == startService");
-        } else {
-            Log.i("TestService", "bindService != startService");
-        }
+//        if (bindService == startService) {
+//            Log.i("TestService", "bindService == startService");
+//        } else {
+//            Log.i("TestService", "bindService != startService");
+//        }
         return null;
     }
 

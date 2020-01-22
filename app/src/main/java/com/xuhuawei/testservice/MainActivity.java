@@ -46,10 +46,8 @@ public class MainActivity extends AppCompatActivity {
 
         unbind_service.setOnClickListener(onClickListener);
         stop_service.setOnClickListener(onClickListener);
-
-
-        bindService.setOnClickListener(onClickListener);
         startService.setOnClickListener(onClickListener);
+        bindService.setOnClickListener(onClickListener);
     }
 
     private View.OnClickListener onClickListener = new View.OnClickListener() {
